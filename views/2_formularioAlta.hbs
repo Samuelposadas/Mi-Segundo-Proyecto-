@@ -1,0 +1,30 @@
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-6">
+
+            <h1 class="text-center" style="color: pink;">Agregar Frutas o Jugos</h1>
+
+        <form class="text-center pb-3" action="/frutasYjugos/alta/" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="formGroupExampleInput">Nombre</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ingrese el nombre" name="nombre">
+        </div>
+        <div class="form-group">
+            <label for="formGroupExampleInput2">Descripcion</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Descripcion de la fruta o jugo" name="descripcion">
+        </div>
+
+        <div class="form-group">
+    <label for="exampleFormControlFile1">Imagen</label>
+    <input type="file" class="form-control" id="exampleFormControlFile1" name="imagen">
+  </div>
+        <div class="container pt-3">
+            <button type="submit" class="btn btn-dark">Agregar</button>
+            <a href="/frutasYjugos/1_administrador/" class="btn btn-dark">retornar</a>
+        </div>
+        </form>
+
+        </div>
+    </div>
+</div>

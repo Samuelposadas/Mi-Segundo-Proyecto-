@@ -1,0 +1,137 @@
+/* general  */
+*{ 
+  margin: 0%;
+  padding: 0%;
+  font-size: 1.2rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 500;
+  color: coral;
+}
+
+.sub-titulos{
+  padding-left: 4rem;
+}
+
+/* nav  */
+.bg{
+  background-color: #84ff6a !important;
+}
+
+.logotipo{
+  max-height: 4rem;
+  max-width: 4rem;
+}
+
+.tittle-nav{
+  font-size: 1.7rem;
+  color: #ffab10 !important;
+}
+
+.tittle-nav:hover{
+  color: hotpink !important;
+  opacity: 0.5;
+}
+
+.li{
+  font-size: 1.8rem;
+}
+
+.li:hover{
+  color: hotpink !important;
+  border-bottom: 1px solid hotpink;
+}
+
+/* carrusel */
+
+.tittle-carrusel{
+  color: #0bfbda !important;
+  font-size: 1.6rem;
+  text-shadow: 2px 2px 5px black
+}
+
+
+/* section1 y 2 */
+
+.card{
+  border: 2px solid black !important;
+  background-color: beige !important;
+  box-shadow: 10px 10px 5px #888888
+}
+
+.carta{
+  font-size: 10px !important;
+}
+
+h5{
+  color: #35867c !important;
+}
+
+
+
+.btn{
+  background-color: chartreuse !important;
+  border: 1px solid gray;
+} 
+
+.btn:hover{
+  color: hotpink;
+  border: 1px solid gray;
+  opacity: 0.5;
+}
+
+.see-more{
+  text-decoration: none;
+  margin-left: 1rem;
+  color:black;
+  
+}
+
+.see-more:hover{
+  color: pink;
+  opacity: 0.8;
+}
+
+
+/* contacto */
+
+.contacto{
+  font-size: 1.2rem;
+}
+
+
+
+button {
+  background-color:black ; 
+  color: white; 
+  box-shadow: 1px 1px 1px white;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+button:hover{
+  opacity: 0.3;
+}
+
+/* footer */
+
+.logo:hover{
+opacity: 0.6;
+}
+
+
+
+/* table */
+
+.tabla{
+  background-image: url(/images/fondoTabla.jpg);
+}
+
+.head{
+  font-size: 2rem;
+  color: coral;
+}
+

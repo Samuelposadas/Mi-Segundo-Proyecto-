@@ -1,0 +1,60 @@
+<div class="container-fluid">
+    <div class="row text-center ">
+        <div class="col">
+
+                <h1 style="color: pink;">Administrador de Frutas y Jugos</h1>
+
+        </div>
+    </div>
+
+        <div class="row justify-content-center pb-3">
+             <div class="col-2">
+            
+                <a href="/frutasYjugos/Alta" class="btn btn-dark">Agregar Frutas o Jugos</a>
+
+             </div>
+         </div>
+
+        <div class="row">
+            <div class="col">
+            <table class="table tabla text-light table-bordered text-center">
+                  
+                    
+                        <thead class="head">
+                            <tr>
+                            <th scope="col">id</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Imagen</th>
+                            <th scope="col">Editar</th>
+                            <th scope="col">Eliminar</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            {{#each dato}}
+
+                            <tr>
+                            <td>{{id}}</td>
+                            <td>{{nombre}}</td>
+                            <td>{{descripcion}}</td>
+                            <td><img  src="{{imagen}}" alt="" style="max-width: 180px;"></td>
+                            <td><a href="/frutasYjugos/modificar/{{id}}" class="btn btn-dark" style="background-color: cornflowerblue !important;">Editar</a></td>
+                            <td><a href="/frutasYjugos/eliminar/{{id}}" class="btn btn-dark" style="background-color: rgb(209, 28, 68) !important;">Eliminar</a></td>
+                            </tr>
+
+                            {{/each}} 
+                        </tbody>
+                        </table>
+            </div>
+        </div>
+
+        <div class="row justify-content-center pb-2">
+            <div class="col-2">
+            
+                <a href="/"  class="btn btn-dark btn-block">Retornar</a>
+
+            </div>
+        </div>
+</div>
